@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QuanLiNhanSu_Nhom2DataSet2" targetNamespace="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet2.xsd" xmlns:mstns="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet2.xsd" xmlns="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanLiNhanSu_Nhom2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanLiNhanSu_Nhom2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DoAN.Properties.Settings.GlobalReference.Default.QuanLiNhanSu_Nhom2ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LayThongTinNhanVienTableAdapter" GeneratorDataComponentClassName="LayThongTinNhanVienTableAdapter" Name="LayThongTinNhanVien" UserDataComponentName="LayThongTinNhanVienTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLiNhanSu_Nhom2ConnectionString (Settings)" DbObjectName="QuanLiNhanSu_Nhom2.dbo.LayThongTinNhanVien" DbObjectType="Function" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MANV, TENVN, MACV, LUONGCB, NGAYNL, SONGAYNGHI, LOAI, LUONGTL, TONGPHUCAP FROM dbo.LayThongTinNhanVien()</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MANV" DataSetColumn="MANV" />
+              <Mapping SourceColumn="TENVN" DataSetColumn="TENVN" />
+              <Mapping SourceColumn="MACV" DataSetColumn="MACV" />
+              <Mapping SourceColumn="LUONGCB" DataSetColumn="LUONGCB" />
+              <Mapping SourceColumn="NGAYNL" DataSetColumn="NGAYNL" />
+              <Mapping SourceColumn="SONGAYNGHI" DataSetColumn="SONGAYNGHI" />
+              <Mapping SourceColumn="LOAI" DataSetColumn="LOAI" />
+              <Mapping SourceColumn="LUONGTL" DataSetColumn="LUONGTL" />
+              <Mapping SourceColumn="TONGPHUCAP" DataSetColumn="TONGPHUCAP" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QuanLiNhanSu_Nhom2DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QuanLiNhanSu_Nhom2DataSet2" msprop:Generator_UserDSName="QuanLiNhanSu_Nhom2DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LayThongTinNhanVien" msprop:Generator_TableClassName="LayThongTinNhanVienDataTable" msprop:Generator_TableVarName="tableLayThongTinNhanVien" msprop:Generator_TablePropName="LayThongTinNhanVien" msprop:Generator_RowDeletingName="LayThongTinNhanVienRowDeleting" msprop:Generator_RowChangingName="LayThongTinNhanVienRowChanging" msprop:Generator_RowEvHandlerName="LayThongTinNhanVienRowChangeEventHandler" msprop:Generator_RowDeletedName="LayThongTinNhanVienRowDeleted" msprop:Generator_UserTableName="LayThongTinNhanVien" msprop:Generator_RowChangedName="LayThongTinNhanVienRowChanged" msprop:Generator_RowEvArgName="LayThongTinNhanVienRowChangeEvent" msprop:Generator_RowClassName="LayThongTinNhanVienRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MANV" msprop:Generator_ColumnVarNameInTable="columnMANV" msprop:Generator_ColumnPropNameInRow="MANV" msprop:Generator_ColumnPropNameInTable="MANVColumn" msprop:Generator_UserColumnName="MANV">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENVN" msprop:Generator_ColumnVarNameInTable="columnTENVN" msprop:Generator_ColumnPropNameInRow="TENVN" msprop:Generator_ColumnPropNameInTable="TENVNColumn" msprop:Generator_UserColumnName="TENVN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MACV" msprop:Generator_ColumnVarNameInTable="columnMACV" msprop:Generator_ColumnPropNameInRow="MACV" msprop:Generator_ColumnPropNameInTable="MACVColumn" msprop:Generator_UserColumnName="MACV" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LUONGCB" msprop:Generator_ColumnVarNameInTable="columnLUONGCB" msprop:Generator_ColumnPropNameInRow="LUONGCB" msprop:Generator_ColumnPropNameInTable="LUONGCBColumn" msprop:Generator_UserColumnName="LUONGCB" type="xs:double" minOccurs="0" />
+              <xs:element name="NGAYNL" msprop:Generator_ColumnVarNameInTable="columnNGAYNL" msprop:Generator_ColumnPropNameInRow="NGAYNL" msprop:Generator_ColumnPropNameInTable="NGAYNLColumn" msprop:Generator_UserColumnName="NGAYNL" type="xs:dateTime" />
+              <xs:element name="SONGAYNGHI" msprop:Generator_ColumnVarNameInTable="columnSONGAYNGHI" msprop:Generator_ColumnPropNameInRow="SONGAYNGHI" msprop:Generator_ColumnPropNameInTable="SONGAYNGHIColumn" msprop:Generator_UserColumnName="SONGAYNGHI" type="xs:int" minOccurs="0" />
+              <xs:element name="LOAI" msprop:Generator_ColumnVarNameInTable="columnLOAI" msprop:Generator_ColumnPropNameInRow="LOAI" msprop:Generator_ColumnPropNameInTable="LOAIColumn" msprop:Generator_UserColumnName="LOAI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LUONGTL" msprop:Generator_ColumnVarNameInTable="columnLUONGTL" msprop:Generator_ColumnPropNameInRow="LUONGTL" msprop:Generator_ColumnPropNameInTable="LUONGTLColumn" msprop:Generator_UserColumnName="LUONGTL" type="xs:double" minOccurs="0" />
+              <xs:element name="TONGPHUCAP" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTONGPHUCAP" msprop:Generator_ColumnPropNameInRow="TONGPHUCAP" msprop:Generator_ColumnPropNameInTable="TONGPHUCAPColumn" msprop:Generator_UserColumnName="TONGPHUCAP" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

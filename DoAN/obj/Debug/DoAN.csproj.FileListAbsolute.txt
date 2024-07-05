@@ -1,0 +1,46 @@
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe.config
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.pdb
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form1.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Properties.Resources.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.GenerateResource.cache
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.exe
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.pdb
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form2.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form4.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form5.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.FrPB.resources
+C:\Users\admin\Documents\DoAnTHHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form6.resources
+D:\THHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe.config
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.exe
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.pdb
+D:\THHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe
+D:\THHQTCSDL\DoAN\DoAN\bin\Debug\DoAN.pdb
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csprojResolveAssemblyReference.cache
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form1.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form2.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.FrPB.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form4.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form5.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form6.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Properties.Resources.resources
+D:\THHQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe.config
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.exe
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.pdb
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\bin\Debug\DoAN.exe
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\bin\Debug\DoAN.pdb
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.frmNhanVien.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form2.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.FrPB.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form5.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Form6.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.Properties.Resources.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csproj.GenerateResource.Cache
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.csprojResolveAssemblyReference.cache
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.frmLuongTL.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.frmPhuCap.resources
+C:\Users\User\Downloads\New folder\HQTCSDL\DoAN\DoAN\obj\Debug\DoAN.frmPhuCapNhanVien.resources

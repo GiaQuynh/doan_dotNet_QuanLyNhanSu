@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QuanLiNhanSu_Nhom2DataSet" targetNamespace="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet.xsd" xmlns:mstns="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet.xsd" xmlns="http://tempuri.org/QuanLiNhanSu_Nhom2DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="QuanLiNhanSu_Nhom2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="QuanLiNhanSu_Nhom2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DoAN.Properties.Settings.GlobalReference.Default.QuanLiNhanSu_Nhom2ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GetEmployeeWithAllowanceTableAdapter" GeneratorDataComponentClassName="GetEmployeeWithAllowanceTableAdapter" Name="GetEmployeeWithAllowance" UserDataComponentName="GetEmployeeWithAllowanceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="QuanLiNhanSu_Nhom2ConnectionString (Settings)" DbObjectName="QuanLiNhanSu_Nhom2.dbo.GetEmployeeWithAllowance" DbObjectType="Function" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MANV, TENVN, MAPC, TENPC FROM dbo.GetEmployeeWithAllowance()</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MANV" DataSetColumn="MANV" />
+              <Mapping SourceColumn="TENVN" DataSetColumn="TENVN" />
+              <Mapping SourceColumn="MAPC" DataSetColumn="MAPC" />
+              <Mapping SourceColumn="TENPC" DataSetColumn="TENPC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QuanLiNhanSu_Nhom2DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="QuanLiNhanSu_Nhom2DataSet" msprop:Generator_UserDSName="QuanLiNhanSu_Nhom2DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetEmployeeWithAllowance" msprop:Generator_TableClassName="GetEmployeeWithAllowanceDataTable" msprop:Generator_TableVarName="tableGetEmployeeWithAllowance" msprop:Generator_TablePropName="GetEmployeeWithAllowance" msprop:Generator_RowDeletingName="GetEmployeeWithAllowanceRowDeleting" msprop:Generator_RowChangingName="GetEmployeeWithAllowanceRowChanging" msprop:Generator_RowEvHandlerName="GetEmployeeWithAllowanceRowChangeEventHandler" msprop:Generator_RowDeletedName="GetEmployeeWithAllowanceRowDeleted" msprop:Generator_UserTableName="GetEmployeeWithAllowance" msprop:Generator_RowChangedName="GetEmployeeWithAllowanceRowChanged" msprop:Generator_RowEvArgName="GetEmployeeWithAllowanceRowChangeEvent" msprop:Generator_RowClassName="GetEmployeeWithAllowanceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MANV" msprop:Generator_ColumnVarNameInTable="columnMANV" msprop:Generator_ColumnPropNameInRow="MANV" msprop:Generator_ColumnPropNameInTable="MANVColumn" msprop:Generator_UserColumnName="MANV">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENVN" msprop:Generator_ColumnVarNameInTable="columnTENVN" msprop:Generator_ColumnPropNameInRow="TENVN" msprop:Generator_ColumnPropNameInTable="TENVNColumn" msprop:Generator_UserColumnName="TENVN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAPC" msprop:Generator_ColumnVarNameInTable="columnMAPC" msprop:Generator_ColumnPropNameInRow="MAPC" msprop:Generator_ColumnPropNameInTable="MAPCColumn" msprop:Generator_UserColumnName="MAPC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TENPC" msprop:Generator_ColumnVarNameInTable="columnTENPC" msprop:Generator_ColumnPropNameInRow="TENPC" msprop:Generator_ColumnPropNameInTable="TENPCColumn" msprop:Generator_UserColumnName="TENPC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

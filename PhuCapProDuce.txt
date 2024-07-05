@@ -1,0 +1,26 @@
+CREATE PROCEDURE Select_PhuCap
+AS
+BEGIN
+    SELECT * FROM PHUCAP
+END;
+EXEC Select_PhuCap
+
+CREATE PROCEDURE Xoa_PhuCap(@MaPC nchar(10))
+AS
+BEGIN
+    DELETE FROM PHUCAP WHERE MAPC = @MaPC
+END;
+
+
+CREATE PROCEDURE Sua_PhuCap(@MaPC nchar(10), @TenPC nvarchar(50), @TienPC float)
+AS
+BEGIN
+    UPDATE PHUCAP SET TENPC = N'@TenPC' , TIENPC = @TienPC WHERE MAPC = @MaPC
+END;
+
+CREATE PROCEDURE Them_PhuCap(@MaPC nchar(10), @TenPC nvarchar(50), @TienPC float)
+AS
+BEGIN
+    INSERT INTO PHUCAP VALUES(@MaPC,@TenPC,@TienPC)
+END;
+ 
